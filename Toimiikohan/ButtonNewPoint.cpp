@@ -62,11 +62,13 @@ void ButtonNewPoint::cancelLastAction() {
 		}
 	}
 }
-sf::VertexArray ButtonNewPoint::createConvexSet()
-{
-	sf::VertexArray array;
 
-}
+/** sf::VertexArray ButtonNewPoint::createConvexSet()
+{
+sf::VertexArray array;
+
+}**/
+
 void ButtonNewPoint::actionReleased() {}
 
 void ButtonNewPoint::setModifiablePoint(bool t) { modifiablePoint = t; }
