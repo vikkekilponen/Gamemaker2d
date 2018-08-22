@@ -30,6 +30,6 @@ public:
 	void setFinalPoint(bool);
 	void actionPressedRight();
 	void cancelLastAction();
-	sf::VertexArray createConvexSet();
+	// sf::VertexArray createConvexSet();
 };
 
